@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    height: 15px;
+}
+.hamburger{
+    height:30px;
+    margin-right:30px;
+    margin-left:20px
+}
+
+li{
+    list-style: none;
+    color:white;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:400;
+    padding: 20px;
+    padding-right: 60px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    /* width:60%; */
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height:10%;
+    background-color: rgb(128, 66, 252);
+    width:100%;
+    align-items: center;
+}
+.logo{
+    height:30px;
+    margin-left:50px;
+    margin-right:80px;
+}
+.nav-center{
+    display: flex;
+    width:60%;
+}
+.arrow{
+    position:relative;
+    height:5px;
+    bottom:3px;
+}
+.text{
+    height:30px;
+    width:120px;
+    border:none;
+    outline:none;
+}
+.box{
+background-color: white;
+width:250px;
+height:35px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 20px;
+margin: 10px;
+margin-right:80px;
+}
+.section1{
+    
+    justify-content: center;
+}
+.img1{
+    padding-top: 80px;
+    padding-left: 180px;
+    border-radius: 20px;
+    margin-right: 40px;
+    
+}
+
+
+.textarea{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 507px;
+    width: 825px;
+    border-radius: 20px;
+    background-color: rgb(248, 246, 176);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.card1{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card2{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(124, 94, 215);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card3{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(233, 163, 244);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card4{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.items{
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.big-card{
+    position: relative;
+    background-color: rgba(0, 0, 255, 0.831);
+    margin: 150px;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border-radius: 20px;
+}
+
+.small-card1{
+    background-color: rgb(101, 216, 216);
+    margin: 80px;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    /* border: 2px solid whitesmoke; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.small-card2{
+    background-color:  rgba(0, 0, 255, 0.67);
+    margin: 80px;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    color: aliceblue;
+}
+
+.small-card3{
+    background-color:  rgba(0, 0, 255, 0.67);
+    margin: 80px;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    color: aliceblue;
+}
+
+.sc1{
+    padding-left: 70px;
+    padding-top: 40px;
+    font-size: large;
+}
+
+.sc2{
+    padding-left: 65px;
+    padding-top: 40px;
+    font-size: large;
+}
+
+.sc3{
+    padding-left: 75px;
+    padding-top: 40px;
+    font-size: large;
+}
+
+.all-small-cards{
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+.medium-card{
+    position: inherit;
+    background-color: white;
+    margin-top: 65px;
+    height: 575px;
+    width: 850px;
+    border-radius: 10px;
+}
+
+.mc{
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.mc1{
+    padding-left: 85px;
+    padding-top: 55px;
+    font-size: larger;
+}
+
+.mc2{
+    padding-left: 85px;
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.mc3{
+    padding-left: 85px;
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.mc4{
+    padding-left: 85px;
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.input1{
+    border: 0;
+}
+
+.input2{
+    border: 0;
+}
+
+.input3{
+    border: 0;
+}
+
+.input4{
+    border: 0;
+}
+
+.button1{
+    height: 40px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: rgba(128, 128, 128, 0.336);
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+

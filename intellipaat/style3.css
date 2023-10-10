@@ -1,0 +1,38 @@
+body{
+    background-color: azure;
+}
+/* div{
+    background-color: skyblue;
+}
+ul{
+    background-color: bisque;
+}
+li{
+    background-color: beige;
+}
+.div2{
+    background-color: coral;
+}
+#id1{
+    background-color: gold;
+}
+.c1{
+    background-color: greenyellow;
+} */
+
+.para{
+    background-color: violet;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    padding: 50px;
+    border: 10px ridge black;
+}
+h1{
+    margin-right: 25px;
+}
+
+.top-div{
+    background-color: aquamarine;
+}
